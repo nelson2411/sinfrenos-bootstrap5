@@ -911,11 +911,11 @@ section {
 /*Header Transparent CSS End ----------------------------------------*/
 /* Slider Area Styling */
 .slide_bg_1 {
-  background: #f0f0f0 url("../images/slider1.jpg") no-repeat;
+  background: #f0f0f0 url("../images/new-images/portada-1-homepage-sinfrenos.jpg") no-repeat;
 }
 
 .slide_bg_2 {
-  background: #f0f0f0 url("../images/slider2.jpg") no-repeat;
+  background: #f0f0f0 url("../images/new-images/portada-homepage-sinfrenos.jpg") no-repeat;
 }
 
 .single_slider {
@@ -1097,6 +1097,16 @@ section {
 /*---------------------------------------------------- 
 3. About Section    delete
 ------------------------------------------------------*/
+
+header.about-banner {
+  background:linear-gradient(rgba(125, 126, 128, 0.678), 
+  rgba(105, 105, 105, 0.356)), url(../images/new-images/about-sinfrenos.jpg) no-repeat;
+  color: #FFF;
+  box-sizing: border-box;
+  height: 500px;
+  width: 100%;
+  background-position: bottom bottom; 
+}
 .about-section {
   background-color: #ffffff;
   padding-bottom: 93px;
@@ -1202,7 +1212,7 @@ section {
 
 /* About Video */
 .about-right-img {
-  background: #fff url("../images/about.png") no-repeat center center;
+  background: #fff url("../images/new-images/about-sinfrenos.jpg") no-repeat center center;
   position: relative;
   height: 445px;
   margin-top: 68px;
