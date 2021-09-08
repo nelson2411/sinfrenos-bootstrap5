@@ -3659,6 +3659,29 @@ header {
 /*===================================== 
 19. Service Page 
 =====================================*/
+
+header.service-banner {
+  background: transparent url(../images/new-images/Our-services-sinfrenos.jpg) no-repeat;
+  color: #FFF;
+  box-sizing: border-box;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+header.home-cleaning-banner {
+  background: linear-gradient(rgba(124, 125, 126, 0.678), rgba(112, 109, 109, 0.356)), url(../images/new-images/cleaning-sinfrenos.jpg) no-repeat;
+  color: #FFF;
+  box-sizing: border-box;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
 .service_page {
   background: #F6F8FA;
 }
