@@ -7,7 +7,7 @@
 /* Tablet Landscape 
 =======================================================================================*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /*-------------------------------------- Header And SLider ----------------------------------------*/
+  /*-------------------------------------- Header And SLider ----------------------------------------*/
   .top_location {
     margin-left: 0px;
   }
@@ -41,7 +41,7 @@
   .base_header p {
     width: 72%;
   }
-    /*-------------------------------------- promo Section ----------------------------------------*/
+  /*-------------------------------------- promo Section ----------------------------------------*/
   .contact_page .contact_det ul li {
     width: 40%;
   }
@@ -57,7 +57,7 @@
     width: 100%;
   }
   .sing_blog_img {
-      width: 100%;
+    width: 100%;
   }
   .blog_com_dt {
     width: 73%;
@@ -72,7 +72,7 @@
     padding-left: 10px;
   }
 
-/*  Home v2
+  /*  Home v2
 ------------------------------------------------------*/
   .header_top_v2 .header_social {
     margin-left: -22px;
@@ -91,11 +91,11 @@
   }
 
   .slides_wrapper_v2 .col-md-6 {
-      width: 100%;
-      padding: 0 176px;
+    width: 100%;
+    padding: 0 176px;
   }
   .slides_wrapper_v2 .slider_item_tbcell {
-      text-align: center;
+    text-align: center;
   }
   .estimat_sec_v2 .base_header_2 {
     margin-top: 20px;
@@ -133,7 +133,7 @@
 /* Tablet Portrait 
 =======================================================================================*/
 @media (min-width: 768px) and (max-width: 991px) {
-    /*-------------------------------------- Header And SLider ----------------------------------------*/
+  /*-------------------------------------- Header And SLider ----------------------------------------*/
   .header-right {
     display: none;
   }
@@ -153,13 +153,13 @@
   .base_header_2 {
     width: 92%;
   }
-  .header_logo { 
+  .header_logo {
     margin-right: 28px;
-}
-.base_header p {
-  width: 100%;
-}
-    /*---- Slider----- */
+  }
+  .base_header p {
+    width: 100%;
+  }
+  /*---- Slider----- */
   .slider_home h2 {
     font-size: 54px;
     letter-spacing: 0px;
@@ -193,15 +193,15 @@
     margin: 0px 2px;
   }
   .team_section {
-      background-size: auto;
-      padding-bottom: 70px;
+    background-size: auto;
+    padding-bottom: 70px;
   }
   .team_section .col-sm-12 {
     width: 50%;
   }
   .member_info {
-      background: #fff;
-      margin-bottom: 30px;
+    background: #fff;
+    margin-bottom: 30px;
   }
   .testimonials-section .base_header_2 h3 {
     line-height: 44px;
@@ -211,7 +211,7 @@
   .about-right-img {
     margin-top: 18px;
   }
-    /*-------------------------------------- About Section ----------------------------------------*/
+  /*-------------------------------------- About Section ----------------------------------------*/
   .estimat_sectn {
     padding-bottom: 70px;
   }
@@ -263,7 +263,7 @@
     padding-left: 7px;
   }
   .single-project-item {
-      height: 230px;
+    height: 230px;
   }
   .work-section .col-sm-3 {
     width: 33.33%;
@@ -323,7 +323,7 @@
   .comments li .comment:last-child {
     padding-left: 6px;
   }
-    /*-------------------------------------- footer Section ----------------------------------------*/
+  /*-------------------------------------- footer Section ----------------------------------------*/
   .footer_contact {
     width: 25%;
   }
@@ -344,14 +344,15 @@
     width: 50%;
   }
 
-  .footer-section .col-sm-12:nth-child(1) .widget, .footer-section .col-sm-12:nth-child(2) .widget {
+  .footer-section .col-sm-12:nth-child(1) .widget,
+  .footer-section .col-sm-12:nth-child(2) .widget {
     padding-bottom: 0px;
     margin-bottom: 20px;
   }
   .footer-section .widget {
     padding-bottom: 40px;
   }
-    /*---- single Page ----- */
+  /*---- single Page ----- */
   .portfolio-single-detail ul {
     margin-bottom: -27px;
     width: 100%;
@@ -420,10 +421,10 @@
     padding-bottom: 80px;
   }
   .sing_blog_img {
-      width: 100%;
+    width: 100%;
   }
 
-/*  Home v2
+  /*  Home v2
 ------------------------------------------------------*/
   .header_top_v2 .col-sm-12:first-child {
     display: none;
@@ -445,7 +446,7 @@
     margin-left: 0px;
   }
   .slides_wrapper_v2 .slider_item_tbcell {
-      text-align: center;
+    text-align: center;
   }
   .slides_wrapper_v2 .slider_item_tbcell {
     text-align: center;
@@ -494,7 +495,7 @@
     padding-bottom: 120px;
   }
 
-  .blog_sec_v2 .col-sm-12{
+  .blog_sec_v2 .col-sm-12 {
     width: 50%;
   }
   .blog_sec_v2 .col-sm-12:nth-child(3) {
@@ -527,18 +528,17 @@
     padding-top: 100px;
     padding-right: 20px;
   }
-
 }
 /* Phone 
 =======================================================================================*/
 @media only screen and (max-width: 767px) {
-    /*-------------------------------------- Header And SLider ----------------------------------------*/
-    /*---- Slider----- */
+  /*-------------------------------------- Header And SLider ----------------------------------------*/
+  /*---- Slider----- */
   .single_slider h2 {
     font-size: 30px;
     line-height: 42px;
     letter-spacing: 1px;
-    margin-bottom: 0px
+    margin-bottom: 0px;
   }
 
   .slider_home h5 {
@@ -566,7 +566,8 @@
     text-align: center;
   }
 
-  .slider_home .owl-nav div.owl-next, .slider_home .owl-nav div {
+  .slider_home .owl-nav div.owl-next,
+  .slider_home .owl-nav div {
     left: auto;
     margin: 10px;
     right: auto;
@@ -587,7 +588,7 @@
     margin-left: 0px;
     margin-top: 10px !important;
   }
-    /*---- End :Slider----- */
+  /*---- End :Slider----- */
   .header_top {
     padding-top: 15px;
     padding-bottom: 20px;
@@ -607,16 +608,16 @@
   }
 
   .top_location:first-child i::before {
-         /*! line-height: 49px; */
-         /*! padding-left: 11px; */;
+    /*! line-height: 49px; */
+    /*! padding-left: 11px; */
   }
 
   .top_location i::before {
-         /*! font-size: 34px; */
+    /*! font-size: 34px; */
     left: 4px;
-         /*! width: 45px; */
-         /*! height: 45px; */
-         /*! line-height: 38px; */
+    /*! width: 45px; */
+    /*! height: 45px; */
+    /*! line-height: 38px; */
     padding-left: 0px;
     margin-top: -5px;
   }
@@ -637,11 +638,16 @@
     padding-bottom: 10px;
   }
 
-  #navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button {
+  #navigation,
+  #navigation ul,
+  #navigation ul li,
+  #navigation ul li a,
+  #navigation #menu-button {
     float: none;
   }
 
-  #navigation.small-screen #menu-button::after, #navigation.small-screen #menu-button::before {
+  #navigation.small-screen #menu-button::after,
+  #navigation.small-screen #menu-button::before {
     right: 20px;
   }
 
@@ -660,7 +666,7 @@
   #navigation.small-screen ul {
     margin-top: 10px;
   }
-    /*-------------------------------------- About Section ----------------------------------------*/
+  /*-------------------------------------- About Section ----------------------------------------*/
   .base-header h3 {
     line-height: 40px;
     letter-spacing: 0px;
@@ -742,7 +748,7 @@
     line-height: 24px;
   }
 
-  .why_chs .panel { 
+  .why_chs .panel {
     margin-top: -25px;
   }
 
@@ -750,7 +756,8 @@
     margin-top: 70px;
   }
 
-  .why_chs_box h4, .why_chs_box .why_chs_desc {
+  .why_chs_box h4,
+  .why_chs_box .why_chs_desc {
     padding-left: 90px;
   }
 
@@ -844,7 +851,7 @@
     margin-bottom: 40px;
   }
 
-    /*-------------------------------------- Pricing Section ----------------------------------------*/
+  /*-------------------------------------- Pricing Section ----------------------------------------*/
   .pricing-section {
     padding-bottom: 70px;
   }
@@ -867,8 +874,7 @@
     text-align: center;
   }
 
-
-    /*-------------------------------------- Facts Section ----------------------------------------*/
+  /*-------------------------------------- Facts Section ----------------------------------------*/
   .confacts-section {
     background-size: cover;
     padding-bottom: 6px;
@@ -886,7 +892,6 @@
     margin-left: 0px;
   }
 
-
   .facts_text h3 {
     margin-bottom: 10px;
   }
@@ -894,7 +899,7 @@
   .client-box {
     padding-top: 0px;
   }
-    /*-------------------------------------- footer Section ----------------------------------------*/
+  /*-------------------------------------- footer Section ----------------------------------------*/
   .footer_contact {
     margin-bottom: 30px;
   }
@@ -952,9 +957,7 @@
     margin-bottom: 22px;
   }
 
- 
-
-    /*---- single Page ----- */
+  /*---- single Page ----- */
   header .container {
     padding-top: 85px;
   }
@@ -1082,11 +1085,11 @@
   }
 
   .about-right-img {
-      width: 100%;
-      background: #fff url("../images/about_2.jpg");
-      background-position: initial;
-      background-size: cover;
-      margin-top: 40px
+    width: 100%;
+    background: #fff url("../images/about_2.jpg");
+    background-position: initial;
+    background-size: cover;
+    margin-top: 40px;
   }
   .service_list_sec_pg {
     padding-top: 63px;
@@ -1114,7 +1117,7 @@
   .recent-post-box {
     padding-bottom: 0px;
   }
- /*---- Home Page v2----- */
+  /*---- Home Page v2----- */
 
   .header_top_v2 .header_social {
     margin-top: 0px;
@@ -1239,7 +1242,7 @@
 /* Mobile Vertical Layout: 488px 
 ===============================================================================*/
 @media only screen and (min-width: 488px) and (max-width: 767px) {
-    /*---- Slider----- */
+  /*---- Slider----- */
   .single_slider h2 {
     font-size: 40px;
   }
@@ -1252,7 +1255,7 @@
   .slider_btn_one {
     margin-right: 1px;
   }
-    /*---- End: Slider----- */
+  /*---- End: Slider----- */
   .serv_top_section {
     padding-bottom: 0px;
   }
@@ -1268,25 +1271,29 @@
     padding-top: 28px;
   }
   .work-section .projects-list .col-sm-12 {
-      width: 50%;
-      float: left;
+    width: 50%;
+    float: left;
   }
   .work-section .projects-list .col-sm-12:nth-child(odd) {
-      padding-right: 0px;
+    padding-right: 0px;
   }
- 
+
   .work-section .projects-titles {
-      padding-left: 15px;
-      padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .work-section .single-project-item {
-      height: 250px;
+    height: 250px;
   }
-  .blog-section .col-sm-12, .serv_top_section .col-sm-12, .pricing-section .col-sm-12, .team_section .col-sm-12, .confacts-section .col-sm-12 {
+  .blog-section .col-sm-12,
+  .serv_top_section .col-sm-12,
+  .pricing-section .col-sm-12,
+  .team_section .col-sm-12,
+  .confacts-section .col-sm-12 {
     width: 50%;
   }
   .service_list_section .col-sm-12 {
-      width: 50%;
+    width: 50%;
   }
   .about_list h5 {
     font-size: 17px;
@@ -1294,29 +1301,28 @@
     margin-left: 55px;
   }
   .single-project-item {
-      height: 400px;
+    height: 400px;
   }
 
   .why_chs {
     padding-bottom: 70px;
   }
-    /*---- Team ----- */   
+  /*---- Team ----- */
   .estimat_sectn {
     padding-bottom: 0px;
   }
-    /*---- Fact ----- */
+  /*---- Fact ----- */
   .facts_wrapper {
     margin-bottom: 0px;
   }
 
   .funfact_wapr {
     padding-bottom: 0px;
-
   }
 
   .confacts-section {
-      padding-top: 64px;
-      padding-bottom: 73px;
+    padding-top: 64px;
+    padding-bottom: 73px;
   }
 
   .funfact_wapr .icon-lay i {
@@ -1330,12 +1336,12 @@
   .facts_wrapper {
     padding-bottom: 0px;
   }
-    /*---- footer----- */
+  /*---- footer----- */
   .footer-section .col-xs-1 {
     width: 6.667%;
   }
 
-/*---- Home page v2----- */
+  /*---- Home page v2----- */
   .blog_sec_v2 .col-sm-12 {
     width: 100%;
   }
@@ -1349,13 +1355,13 @@
     padding-bottom: 100px;
   }
   .work_sec_v2 {
-      padding-bottom: 0px;
+    padding-bottom: 0px;
   }
   .work_sec_v2 .projects-titles {
     padding-left: 0px;
   }
   .confacts_sec_v2 {
-      padding-top: 85px;
+    padding-top: 85px;
   }
   .footer_subs {
     width: 350px;
