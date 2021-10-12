@@ -4335,3 +4335,23 @@ header.shop-banner {
   display: flex;
   justify-content: center;
 }
+
+.product-price {
+  font-weight: bolder;
+  color: #0909c7;
+  font-size: 1.15rem;
+}
+
+/* --------------------------
+
+Quote Styles
+------------------------------*/
+
+header.quote-banner {
+  background: transparent url(../images/quote-sinfrenos.jpg);
+  color: #fff;
+  box-sizing: border-box;
+  height: 307px;
+  width: 100%;
+  background-position: 50% -167px;
+}

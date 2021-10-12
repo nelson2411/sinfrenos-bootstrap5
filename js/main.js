@@ -134,6 +134,109 @@
     },
   });
 
+  $("#product-well-being").owlCarousel({
+    autoPlay: 3000, //Set AutoPlay to 5 seconds
+    autoplay: true,
+    smartSpeed: 2000, // Default is 250
+    items: 3,
+    loop: true,
+    margin: 30,
+    touchDrag: true,
+    mouseDrag: true,
+    pagination: true,
+    dots: true,
+    nav: true,
+    navText: ["<i class='logo-nav-icon'></i>", "<i class='logo-nav-icon'></i>"],
+    responsive: {
+      1200: {
+        items: 3,
+      },
+      992: {
+        items: 3,
+      },
+      768: {
+        items: 2,
+      },
+      480: {
+        items: 2,
+      },
+      320: {
+        items: 1,
+      },
+      280: {
+        items: 1,
+      },
+    },
+  });
+  $("#product-health").owlCarousel({
+    autoPlay: 3000, //Set AutoPlay to 5 seconds
+    autoplay: true,
+    smartSpeed: 2000, // Default is 250
+    items: 3,
+    loop: true,
+    margin: 30,
+    touchDrag: true,
+    mouseDrag: true,
+    pagination: true,
+    dots: true,
+    nav: true,
+    navText: ["<i class='logo-nav-icon'></i>", "<i class='logo-nav-icon'></i>"],
+    responsive: {
+      1200: {
+        items: 3,
+      },
+      992: {
+        items: 3,
+      },
+      768: {
+        items: 2,
+      },
+      480: {
+        items: 2,
+      },
+      320: {
+        items: 1,
+      },
+      280: {
+        items: 1,
+      },
+    },
+  });
+  $("#product-home").owlCarousel({
+    autoPlay: 3000, //Set AutoPlay to 5 seconds
+    autoplay: true,
+    smartSpeed: 2000, // Default is 250
+    items: 3,
+    loop: true,
+    margin: 30,
+    touchDrag: true,
+    mouseDrag: true,
+    pagination: true,
+    dots: true,
+    nav: true,
+    navText: ["<i class='logo-nav-icon'></i>", "<i class='logo-nav-icon'></i>"],
+    responsive: {
+      1200: {
+        items: 3,
+      },
+      992: {
+        items: 3,
+      },
+      768: {
+        items: 2,
+      },
+      480: {
+        items: 2,
+      },
+      320: {
+        items: 1,
+      },
+      280: {
+        items: 1,
+      },
+    },
+  });
+
   /* =======================================
            Testimonial Section 
        =======================================*/

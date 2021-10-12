@@ -9,7 +9,7 @@
 
   <head>
     <!-- TITLE OF SITE -->
-    <title>Kontakta Oss - Sinfrenos AB</title>
+    <title>klinarmen - Cleaning Service HTML5 Responsive Template</title>
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -115,7 +115,7 @@
         <div class="row">
           <div id="navigation">
             <ul>
-              <li><a class="active" href="index.html">Hem</a></li>
+              <li><a class="active" href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li class="has-sub">
                 <a href="#" title="page">Pages</a>
@@ -191,7 +191,7 @@
     <!-- End: header navigation -->
 
     <!-- header -->
-    <header id="page-top" class="blog-banner">
+    <header id="page-top" class="quote-banner">
       <!-- Start: Header Content -->
       <div class="container" id="blog">
         <div
@@ -200,8 +200,8 @@
         >
           <div class="col-sm-12">
             <!-- Headline Goes Here -->
-            <h4><a href="index.html"> Hem </a> / Kontakt</h4>
-            <h3>Kontakta Oss</h3>
+            <h4><a href="index.html"> Home </a> / Contact</h4>
+            <h3>Contact Us</h3>
           </div>
         </div>
         <!-- End: .row -->
@@ -219,11 +219,9 @@
       <div class="container">
         <!-- Start: Heading -->
         <div class="base_header_2">
-          <h3>Get in touch</h3>
+          <h3>Beställ offert</h3>
           <p>
-            Subjects to ecstatic children he could ye leave up as built match.
-            Dejection agreeable attention set suspected led offending dmitting
-            an performed supposing by garden agreed matter .
+            Vi tillhandahåller gärna en tjänst med professionalism och kvalitet.
           </p>
         </div>
         <!-- End:  heading -->
@@ -231,30 +229,73 @@
         <div class="inner-contact">
           <div class="row">
             <div class="col-sm-12">
-              <div id="map" class="map-container"></div>
-            </div>
-            <div class="col-sm-12">
               <!--  Contact Form  -->
               <div class="contact-form">
-                <form method="POST" action="mailer.php" id="contact-form">
+                <form method="post" action="mailer.php" id="contact-form">
                   <div class="row">
                     <div class="col-lg-6">
+                      <div class="col-lg-12">
+                        <select
+                          class="form-select con-field"
+                          aria-label="Default select example"
+                        >
+                          <option selected>
+                            Väls vilket tjänst du är intresserad av?
+                          </option>
+                          <option value="1">Hemstädning</option>
+                          <option value="2">Storstädning</option>
+                          <option value="3">Flyttstäd</option>
+                          <option value="2">Golvård</option>
+                          <option value="3">Byggstädning</option>
+                          <option value="2">Trappstäd</option>
+                          <option value="3">Kontorstädning</option>
+                          <option value="3">Fönsterputsning</option>
+                          <option value="3">Trädgårdsarbete</option>
+                        </select>
+                      </div>
                       <div class="col-lg-12">
                         <input
                           class="con-field"
                           name="name"
                           id="name"
                           type="text"
-                          placeholder="Name"
+                          placeholder="Var ligger objektet"
                         />
                       </div>
+                      <div class="col-lg-12">
+                        <input
+                          class="con-field"
+                          name="name"
+                          id="name"
+                          type="number"
+                          placeholder="Antal KVM"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="col-lg-12">
+                        <select
+                          class="form-select con-field"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Väl typ av objekt:</option>
+                          <option value="1">Lägenhet</option>
+                          <option value="2">Villa</option>
+                          <option value="3">Kontor</option>
+                          <option value="2">Hotell och Restauranger</option>
+                          <option value="3">Lägerstädning</option>
+                          <option value="2">Matt och möbeltvätt</option>
+                          <option value="3">Anna</option>
+                        </select>
+                      </div>
+
                       <div class="col-lg-12">
                         <input
                           class="con-field"
                           name="email"
                           id="email"
                           type="text"
-                          placeholder="Email"
+                          placeholder="Antal Rum"
                         />
                       </div>
                       <div class="col-lg-12">
@@ -263,29 +304,86 @@
                           name="messageForm"
                           id="messageForm"
                           type="text"
-                          placeholder="Subject"
+                          placeholder="Antal fönster"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <textarea
+                        class="form-control con-field"
+                        id="exampleFormControlTextarea1"
+                        placeholder="Beskriv gärna dina frågar"
+                        rows="4"
+                      ></textarea>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="col-lg-12">
+                        <input
+                          class="form-control con-field"
+                          type="text"
+                          placeholder="Namn/Företag"
+                          aria-label="default input example"
+                        />
+                      </div>
+                      <div class="col-lg-12">
+                        <input
+                          class="form-control con-field"
+                          type="text"
+                          placeholder="Adress"
+                          aria-label="default input example"
+                        />
+                      </div>
+                      <div class="col-lg-12">
+                        <input
+                          class="form-control con-field"
+                          type="text"
+                          placeholder="Ort"
+                          aria-label="default input example"
+                        />
+                      </div>
+                      <div class="col-lg-12">
+                        <input
+                          class="form-control con-field"
+                          type="email"
+                          placeholder="E-post"
+                          aria-label="default input example"
                         />
                       </div>
                     </div>
                     <div class="col-lg-6">
                       <div class="col-lg-12">
-                        <textarea
-                          class="con-field"
-                          name="message"
-                          id="message"
-                          rows="6"
-                          placeholder="Your Message"
-                        ></textarea>
-                        <div class="submit-area">
-                          <input
-                            type="submit"
-                            id="submit-contact"
-                            class="btn-alt"
-                            value="Send Message"
-                          />
-                          <div id="msg" class="message"></div>
-                        </div>
+                        <input
+                          class="form-control con-field"
+                          type="text"
+                          placeholder="Kontaktperson/Företag"
+                          aria-label="default input example"
+                        />
                       </div>
+                      <div class="col-lg-12">
+                        <input
+                          class="form-control con-field"
+                          type="text"
+                          placeholder="Postnummer"
+                          aria-label="default input example"
+                        />
+                      </div>
+                      <div class="col-lg-12">
+                        <input
+                          class="form-control con-field"
+                          type="tel"
+                          placeholder="Telefon"
+                          aria-label="default input example"
+                        />
+                      </div>
+                    </div>
+                    <div class="submit-area">
+                      <input
+                        type="submit"
+                        id="submit-contact"
+                        class="btn-alt"
+                        value="Send Message"
+                      />
+                      <div id="msg" class="message"></div>
                     </div>
                   </div>
                 </form>
