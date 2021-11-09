@@ -4355,3 +4355,117 @@ header.quote-banner {
   width: 100%;
   background-position: 50% -167px;
 }
+
+select {
+  font-family: "FontAwesome", "sans-serif";
+}
+
+select > option {
+  font-family: "FontAwesome", "sans-serif";
+}
+
+.lang-menu {
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 25px;
+  position: relative;
+}
+.lang-menu .selected-lang {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  cursor: pointer;
+}
+.lang-menu .selected-lang:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/sweden-flag-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.lang-menu .selected-lang-en {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  cursor: pointer;
+}
+
+.lang-menu .selected-lang-en:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/united-kingdom-flag.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+.lang-menu ul {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #f8f8f8;
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  width: 125px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lang-menu ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menu ul li a {
+  text-decoration: none;
+  width: 125px;
+  padding: 5px 10px;
+  display: block;
+}
+
+.lang-menu ul li:hover {
+  background-color: #f2f2f2;
+}
+
+.lang-menu ul li a:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.es:before {
+  background-image: url(../images/spain-flag-icon.png);
+}
+
+.en:before {
+  background-image: url(../images/united-kingdom-flag.png);
+}
+.sv:before {
+  background-image: url(../images/sweden-flag-icon.png);
+}
+
+.ar:before {
+  background-image: url(https://www.countryflags.io/ae/flat/32.png);
+}
+
+.lang-menu:hover ul {
+  display: block;
+}

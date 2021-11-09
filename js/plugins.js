@@ -154,5 +154,3 @@ $(document).ready(function(){"use strict";$(window).width()>="768"&&$(".navigati
 
 
 
-
-
