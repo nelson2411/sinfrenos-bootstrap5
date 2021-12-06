@@ -4408,6 +4408,25 @@ select > option {
   margin-right: 5px;
 }
 
+.lang-menu .selected-lang-es {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  cursor: pointer;
+}
+
+.lang-menu .selected-lang-es:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/spain-flag-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
 .lang-menu ul {
   margin: 0;
   padding: 0;
