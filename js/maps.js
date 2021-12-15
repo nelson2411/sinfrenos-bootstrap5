@@ -12,12 +12,12 @@ function initMap() {
   // Add marker
   var marker = new google.maps.Marker({
     position: { lat: 59.807979087439755, lng: 18.89032849732615 },
-    title: "Reinastäd & service",
+    title: "Sinfrenos AB",
     map: map,
     icon: icon,
   });
   var infoWindow = new google.maps.InfoWindow({
-    content: "<h3>Reinastäd & Service</h3>",
+    content: "<h3>SINFRENOS AB</h3>",
   });
 
   marker.addListener("click", function () {
