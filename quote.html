@@ -214,7 +214,12 @@
             <div class="col-sm-12">
               <!--  Contact Form  -->
               <div class="contact-form">
-                <form method="post" action="mailer.php" id="contact-form">
+                <form
+                  method="post"
+                  id="contact-form"
+                  name="quote-sv"
+                  data-netlify="true"
+                >
                   <div class="row">
                     <div class="col-lg-6">
                       <div class="col-lg-12">
@@ -225,15 +230,19 @@
                           <option selected>
                             Väls vilket tjänst du är intresserad av?
                           </option>
-                          <option value="1">Hemstädning</option>
-                          <option value="2">Storstädning</option>
-                          <option value="3">Flyttstäd</option>
-                          <option value="2">Golvård</option>
-                          <option value="3">Byggstädning</option>
-                          <option value="2">Trappstäd</option>
-                          <option value="3">Kontorstädning</option>
-                          <option value="3">Fönsterputsning</option>
-                          <option value="3">Trädgårdsarbete</option>
+                          <option value="Hemstädning">Hemstädning</option>
+                          <option value="Storstädning">Storstädning</option>
+                          <option value="Flyttstäd">Flyttstäd</option>
+                          <option value="Golvård">Golvård</option>
+                          <option value="Byggstädning">Byggstädning</option>
+                          <option value="Trappstäd">Trappstäd</option>
+                          <option value="Kontorstädning">Kontorstädning</option>
+                          <option value="Fönsterputsning">
+                            Fönsterputsning
+                          </option>
+                          <option value="Trädgårdsarbete">
+                            Trädgårdsarbete
+                          </option>
                         </select>
                       </div>
                       <div class="col-lg-12">
@@ -248,8 +257,8 @@
                       <div class="col-lg-12">
                         <input
                           class="con-field"
-                          name="name"
-                          id="name"
+                          name="KVM"
+                          id="KVM"
                           type="number"
                           placeholder="Antal KVM"
                         />
@@ -284,17 +293,18 @@
                       <div class="col-lg-12">
                         <input
                           class="con-field"
-                          name="messageForm"
-                          id="messageForm"
-                          type="text"
+                          name="antalFönster"
+                          id="antalFönster"
+                          type="number"
                           placeholder="Antal fönster"
                         />
                       </div>
                     </div>
                     <div class="col-lg-12">
                       <textarea
+                        name="ämne"
                         class="form-control con-field"
-                        id="exampleFormControlTextarea1"
+                        id="ämne"
                         placeholder="Beskriv gärna dina frågar"
                         rows="4"
                       ></textarea>
@@ -302,6 +312,7 @@
                     <div class="col-lg-6">
                       <div class="col-lg-12">
                         <input
+                          name="name-företag"
                           class="form-control con-field"
                           type="text"
                           placeholder="Namn/Företag"
@@ -310,6 +321,7 @@
                       </div>
                       <div class="col-lg-12">
                         <input
+                          name="adress"
                           class="form-control con-field"
                           type="text"
                           placeholder="Adress"
@@ -318,6 +330,7 @@
                       </div>
                       <div class="col-lg-12">
                         <input
+                          name="ort"
                           class="form-control con-field"
                           type="text"
                           placeholder="Ort"
@@ -326,6 +339,7 @@
                       </div>
                       <div class="col-lg-12">
                         <input
+                          name="email"
                           class="form-control con-field"
                           type="email"
                           placeholder="E-post"
@@ -336,6 +350,7 @@
                     <div class="col-lg-6">
                       <div class="col-lg-12">
                         <input
+                          name="kontaktPerson"
                           class="form-control con-field"
                           type="text"
                           placeholder="Kontaktperson/Företag"
@@ -344,6 +359,7 @@
                       </div>
                       <div class="col-lg-12">
                         <input
+                          name="postnummer"
                           class="form-control con-field"
                           type="text"
                           placeholder="Postnummer"
@@ -352,6 +368,7 @@
                       </div>
                       <div class="col-lg-12">
                         <input
+                          name="tel"
                           class="form-control con-field"
                           type="tel"
                           placeholder="Telefon"
