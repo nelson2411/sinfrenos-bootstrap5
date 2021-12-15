@@ -12,7 +12,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), options);
   // Add marker
   var marker = new google.maps.Marker({
-    position: { lat: 59.40657446704078, lng: 17.922813071270934 },
+    position: { lat: 59.40657181115102, lng: 17.92343396619813 },
     title: "Sinfrenos AB",
     map: map,
     icon: icon,
@@ -27,3 +27,4 @@ function initMap() {
 }
 
 59.40657446704078, 17.922813071270934;
+59.40657181115102, 17.92343396619813;
