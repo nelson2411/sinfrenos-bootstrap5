@@ -392,7 +392,12 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-5 col-lg-4">
-            <form id="contactForm" class="form-order">
+            <form
+              id="contactForm"
+              class="form-order"
+              data-netlify="true"
+              name="form-index-sv"
+            >
               <div class="estimate_form_inner">
                 <h4>Begär offert</h4>
                 <div id="success"></div>
@@ -411,7 +416,7 @@
                     name="user-email"
                     id="user-email"
                     placeholder="e-postadress"
-                    required=""
+                    required
                     class="form-control"
                     type="email"
                   />
@@ -423,6 +428,7 @@
                     placeholder="Telefonnummer"
                     class="form-control"
                     type="tel"
+                    required
                   />
                 </div>
                 <div class="input-group">
@@ -432,18 +438,21 @@
                     placeholder="Ämne"
                     class="form-control"
                     type="tel"
+                    required
                   />
                 </div>
                 <div class="input-group input_group_full_width">
                   <textarea
                     id="user-message"
                     placeholder="Ditt meddelande"
-                    required=""
+                    required
                     class="form-control"
                     rows="4"
                   ></textarea>
                 </div>
-                <button class="btn btn-primary">Få en förslag</button>
+                <button type="submit" class="btn btn-primary">
+                  Få en förslag
+                </button>
               </div>
             </form>
             <!--/.form -->
