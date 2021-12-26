@@ -1245,11 +1245,12 @@ header.about-banner {
 
 /* About Video */
 .about-right-img {
-  background: #fff url("../images/new-images/about-sinfrenos.jpg") no-repeat
+  background: #fff
+    url("../images/logo/LOGO\ SINFRENOS\ COLOR\ \(BRIGHT\ BG\).png") no-repeat
     center center;
+  background-size: 70%;
   position: relative;
   height: 445px;
-  margin-top: 68px;
 }
 
 .video-section .base-header {
