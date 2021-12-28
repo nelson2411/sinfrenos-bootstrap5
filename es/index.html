@@ -408,34 +408,39 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-5 col-lg-4">
-            <form id="contactForm" class="form-order">
+            <form
+              id="contactForm"
+              class="form-order"
+              data-netlify="true"
+              name="index-form-es"
+            >
               <div class="estimate_form_inner">
                 <h4>Pide una Oferta</h4>
                 <div id="success"></div>
                 <div class="input-group">
                   <input
-                    name="user-name"
-                    id="user-name"
+                    name="nombre"
+                    id="nombre"
                     placeholder="Nombre"
-                    required=""
+                    required
                     class="form-control"
                     type="text"
                   />
                 </div>
                 <div class="input-group">
                   <input
-                    name="user-email"
-                    id="user-email"
+                    name="email"
+                    id="email"
                     placeholder="email"
-                    required=""
+                    required
                     class="form-control"
                     type="email"
                   />
                 </div>
                 <div class="input-group">
                   <input
-                    name="user-phone"
-                    id="user-phone"
+                    name="telefono"
+                    id="telefono"
                     placeholder="Teléfono"
                     class="form-control"
                     type="tel"
@@ -443,8 +448,8 @@
                 </div>
                 <div class="input-group">
                   <input
-                    name="service"
-                    id="service"
+                    name="asunto"
+                    id="asunto"
                     placeholder="Asunto"
                     class="form-control"
                     type="tel"
@@ -452,7 +457,8 @@
                 </div>
                 <div class="input-group input_group_full_width">
                   <textarea
-                    id="user-message"
+                    name="mensaje"
+                    id="Mensaje"
                     placeholder="Tu Mensaje"
                     required=""
                     class="form-control"

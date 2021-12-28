@@ -210,71 +210,94 @@
             <div class="col-sm-12">
               <!--  Contact Form  -->
               <div class="contact-form">
-                <form method="post" action="mailer.php" id="contact-form">
+                <form
+                  method="post"
+                  id="contact-form"
+                  name="quote-en"
+                  data-netlify="true"
+                >
                   <div class="row">
                     <div class="col-lg-6">
                       <div class="col-lg-12">
                         <select
+                          name="service"
                           class="form-select con-field"
                           aria-label="Default select example"
                         >
                           <option selected>
                             Which service are you interested in?
                           </option>
-                          <option value="1">Home-Cleaning</option>
-                          <option value="2">Depp Cleaning</option>
-                          <option value="3">Moving in/out cleaning</option>
-                          <option value="2">Floor cleaning and care</option>
-                          <option value="3">Construction cleaning</option>
-                          <option value="2">Stairs cleaning</option>
-                          <option value="3">office-cleanning</option>
-                          <option value="3">Windows Cleaning</option>
-                          <option value="3">Gardening</option>
+                          <option value="hemstädning">Home-Cleaning</option>
+                          <option value="storstädning">Depp Cleaning</option>
+                          <option value="flyttstädning">
+                            Moving in/out cleaning
+                          </option>
+                          <option value="golvård">
+                            Floor cleaning and care
+                          </option>
+                          <option value="byggstädning">
+                            Construction cleaning
+                          </option>
+                          <option value="trappstäd">Stairs cleaning</option>
+                          <option value="kontorstädning">
+                            office-cleanning
+                          </option>
+                          <option value="fönsterputsning">
+                            Windows Cleaning
+                          </option>
+                          <option value="trädgårdsarbete">Gardening</option>
                         </select>
                       </div>
                       <div class="col-lg-12">
                         <input
                           class="con-field"
-                          name="name"
-                          id="name"
+                          name="plats"
+                          id="plats"
                           type="text"
-                          placeholder="Var ligger objektet"
+                          placeholder="Where the place is located?"
                         />
                       </div>
                       <div class="col-lg-12">
                         <input
                           class="con-field"
-                          name="name"
-                          id="name"
+                          name="KVM"
+                          id="KVM"
                           type="number"
-                          placeholder="Antal KVM"
+                          placeholder="SQM"
                         />
                       </div>
                     </div>
                     <div class="col-lg-6">
                       <div class="col-lg-12">
                         <select
+                          name="objekt"
                           class="form-select con-field"
                           aria-label="Default select example"
                         >
                           <option class="con-field" selected>
                             Choose the type of location:
                           </option>
-                          <option value="1">Apartment</option>
-                          <option value="2">House</option>
-                          <option value="3">Office</option>
-                          <option value="2">Hotel and Restaurant</option>
-                          <option value="3">Warehouse cleaning</option>
-                          <option value="2">Carpets and floors</option>
-                          <option value="3">Other</option>
+                          <option value="Lägenhet">Apartment</option>
+                          <option value="Villa">House</option>
+                          <option value="Kontor">Office</option>
+                          <option value="Hotell och Restauranger">
+                            Hotel and Restaurant
+                          </option>
+                          <option value="Lägerstädning">
+                            Warehouse cleaning
+                          </option>
+                          <option value="Matt och möbeltvätt">
+                            Carpets and floors
+                          </option>
+                          <option value="Anna">Other</option>
                         </select>
                       </div>
 
                       <div class="col-lg-12">
                         <input
                           class="con-field"
-                          name="email"
-                          id="email"
+                          name="antalRum"
+                          id="antalRum"
                           type="text"
                           placeholder="Number of Rooms"
                         />
@@ -282,8 +305,8 @@
                       <div class="col-lg-12">
                         <input
                           class="con-field"
-                          name="messageForm"
-                          id="messageForm"
+                          name="antalFönster"
+                          id="antalFönster"
                           type="text"
                           placeholder="Number of windows"
                         />
@@ -291,8 +314,9 @@
                     </div>
                     <div class="col-lg-12">
                       <textarea
+                        name="ämne"
                         class="form-control con-field"
-                        id="exampleFormControlTextarea1"
+                        id="ämne"
                         placeholder="Please describe your enquiry"
                         rows="4"
                       ></textarea>
@@ -300,6 +324,7 @@
                     <div class="col-lg-6">
                       <div class="col-lg-12">
                         <input
+                          name="name-företag"
                           class="form-control con-field"
                           type="text"
                           placeholder="Name/Company"
@@ -308,6 +333,7 @@
                       </div>
                       <div class="col-lg-12">
                         <input
+                          name="adres"
                           class="form-control con-field"
                           type="text"
                           placeholder="Address"
@@ -316,6 +342,7 @@
                       </div>
                       <div class="col-lg-12">
                         <input
+                          name="ort"
                           class="form-control con-field"
                           type="text"
                           placeholder="City"
@@ -324,6 +351,7 @@
                       </div>
                       <div class="col-lg-12">
                         <input
+                          name="email"
                           class="form-control con-field"
                           type="email"
                           placeholder="E-mail"
@@ -334,6 +362,7 @@
                     <div class="col-lg-6">
                       <div class="col-lg-12">
                         <input
+                          name="kontaktPerson"
                           class="form-control con-field"
                           type="text"
                           placeholder="Contact Person/Company"
@@ -342,6 +371,7 @@
                       </div>
                       <div class="col-lg-12">
                         <input
+                          name="postnummer"
                           class="form-control con-field"
                           type="text"
                           placeholder="ZIP Code"
@@ -350,6 +380,7 @@
                       </div>
                       <div class="col-lg-12">
                         <input
+                          name="tel"
                           class="form-control con-field"
                           type="tel"
                           placeholder="Phone Number"
