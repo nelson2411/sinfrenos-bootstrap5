@@ -1251,6 +1251,7 @@ header.about-banner {
   background-size: 70%;
   position: relative;
   height: 445px;
+  bottom: 85px;
 }
 
 .video-section .base-header {
@@ -1781,6 +1782,14 @@ header.about-banner {
 
 .project-bg-8 {
   background-image: url(../images/Portfolio/SinFrenosAB.png);
+}
+
+.project-bg-9 {
+  background-image: url(../images/Portfolio/Före-efter-SINFRENOSAB.png);
+}
+
+.project-bg-10 {
+  background-image: url(../images/Portfolio/Golvet-SINFRENOSAB-SVERIGE.png);
 }
 
 .single-project-item {
