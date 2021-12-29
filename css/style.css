@@ -2794,6 +2794,14 @@ header.blog-banner {
   width: 100%;
   background-position: 50% -167px;
 }
+header.contact-banner {
+  background: transparent url(../images/economy-redovisning.jpg);
+  color: #fff;
+  box-sizing: border-box;
+  height: 307px;
+  width: 100%;
+  background-position: 50% -167px;
+}
 
 header {
   position: relative;
