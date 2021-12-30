@@ -61,8 +61,8 @@
     <!-- Start: Header Section 
 ==================================================-->
     <div class="header_top">
-      <!-- Logo -->
-      <div class="container">
+      <!-- Top Header -->
+      <div class="container-fluid">
         <div class="row" style="align-items: center">
           <div class="header_logo">
             <a href="index.html"
@@ -85,6 +85,11 @@
               <p>Address</p>
               <span>Oslogatan 40 , 16431 kista</span>
             </div>
+            <div class="top_location">
+              <i class="icon_mail"></i>
+              <p>email:</p>
+              <span>info@sinfrenos.se</span>
+            </div>
           </div>
           <div class="header-right">
             <ul>
@@ -103,6 +108,7 @@
           <!-- End: social-nav -->
         </div>
       </div>
+      <!-- End Top Header -->
     </div>
     <!-- End: Header Info -->
 
@@ -135,6 +141,11 @@
               <li><a href="quote.html" title="Quote">Get an Offer</a></li>
               <li><a href="shop.html" title="Shop">Our Shop</a></li>
               <li><a href="contact.html" title="Contact">Contact Us</a></li>
+              <li>
+                <a href="economy.html" title="Economy"
+                  >Finance and Accounting</a
+                >
+              </li>
             </ul>
           </div>
           <div class="menu_right">
@@ -218,6 +229,7 @@
                   id="contact-form"
                   data-netlify="true"
                   name="contact-en"
+                  action="/action.html"
                 >
                   <div class="row">
                     <div class="col-lg-6">
@@ -228,6 +240,7 @@
                           id="name"
                           type="text"
                           placeholder="Name"
+                          required
                         />
                       </div>
                       <div class="col-lg-12">
@@ -237,6 +250,7 @@
                           id="email"
                           type="text"
                           placeholder="Email"
+                          required
                         />
                       </div>
                       <div class="col-lg-12">
@@ -246,6 +260,7 @@
                           id="subject"
                           type="text"
                           placeholder="Subject"
+                          required
                         />
                       </div>
                     </div>
@@ -257,6 +272,7 @@
                           id="message"
                           rows="6"
                           placeholder="Your Message"
+                          required
                         ></textarea>
                         <div class="submit-area">
                           <input

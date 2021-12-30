@@ -61,8 +61,8 @@
     <!-- Start: Header Section 
 ==================================================-->
     <div class="header_top">
-      <!-- Logo -->
-      <div class="container">
+      <!-- Top Header -->
+      <div class="container-fluid">
         <div class="row">
           <div class="header_logo" style="margin-right: 0">
             <a href="index.html"
@@ -85,6 +85,11 @@
               <p>Dirección</p>
               <span>Oslogatan 40 , 16431 kista</span>
             </div>
+            <div class="top_location">
+              <i class="icon_mail"></i>
+              <p>email:</p>
+              <span>info@sinfrenos.se</span>
+            </div>
           </div>
           <div class="header-right">
             <ul>
@@ -103,6 +108,7 @@
           <!-- End: social-nav -->
         </div>
       </div>
+      <!-- End Top Header-->
     </div>
     <!-- End: Header Info -->
 
@@ -135,6 +141,11 @@
               <li><a href="quote.html" title="Quote">Pide una Oferta</a></li>
               <li><a href="shop.html" title="Shop">Nuestra Tienda</a></li>
               <li><a href="contact.html" title="Contact">Contactanos</a></li>
+              <li>
+                <a href="economy.html" title="Economy"
+                  >Finanzas & Contabilidad</a
+                >
+              </li>
             </ul>
           </div>
           <div class="menu_right">
@@ -214,6 +225,7 @@
                   id="contact-form"
                   data-netlify="true"
                   name="quote-es"
+                  action="/action.html"
                 >
                   <div class="row">
                     <div class="col-lg-6">
@@ -258,6 +270,7 @@
                           id="direccion"
                           type="text"
                           placeholder="Direccion"
+                          required
                         />
                       </div>
                       <div class="col-lg-12">
@@ -276,6 +289,7 @@
                           name="espacioTipo"
                           class="form-select con-field"
                           aria-label="Default select example"
+                          required
                         >
                           <option selected>
                             Especifique el tipo de espacio:
@@ -322,6 +336,7 @@
                         id="ämne"
                         placeholder="Escriba su mensaje"
                         rows="4"
+                        required
                       ></textarea>
                     </div>
                     <div class="col-lg-6">
@@ -332,6 +347,7 @@
                           type="text"
                           placeholder="Nombre/Compañia"
                           aria-label="default input example"
+                          required
                         />
                       </div>
                       <div class="col-lg-12">
@@ -341,6 +357,7 @@
                           type="text"
                           placeholder="Dirección"
                           aria-label="default input example"
+                          required
                         />
                       </div>
                       <div class="col-lg-12">
@@ -350,6 +367,7 @@
                           type="text"
                           placeholder="Ciudad"
                           aria-label="default input example"
+                          required
                         />
                       </div>
                       <div class="col-lg-12">
@@ -359,6 +377,7 @@
                           type="email"
                           placeholder="email"
                           aria-label="default input example"
+                          required
                         />
                       </div>
                     </div>
@@ -370,6 +389,7 @@
                           type="text"
                           placeholder="Persona de contacto/Compañia"
                           aria-label="default input example"
+                          required
                         />
                       </div>
                       <div class="col-lg-12">
@@ -379,6 +399,7 @@
                           type="text"
                           placeholder="Código Postal"
                           aria-label="default input example"
+                          required
                         />
                       </div>
                       <div class="col-lg-12">
@@ -388,6 +409,7 @@
                           type="tel"
                           placeholder="Teléfono"
                           aria-label="default input example"
+                          required
                         />
                       </div>
                     </div>

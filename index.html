@@ -77,8 +77,10 @@
         "@type": "LocalBusiness",
         "name": "SINFRENOS AB",
         "description": "Vårt företag har ett brett utbud av tjänster och innovativa lösningar för kunder i alla sektorer och med olika budgetar.",
-        "image": "/images/logo/LOGO SINFRENOS COLOR (BRIGHT BG).png",
+        "image": "https://sinfrenos-bootstrap5.netlify.app/images/logo/logo-sinfrenos-color.png",
+        "url": "https://www.sinfrenos.se/",
         "email": "localemail@gmail.com",
+        "telephone": "+46 704265874",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Oslogatan 40",
@@ -164,7 +166,7 @@
 ==================================================-->
     <div class="header_top">
       <!-- Logo -->
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="header_logo">
             <a href="index.html"
@@ -186,6 +188,11 @@
               <i class="icon_house"></i>
               <p>Adress</p>
               <span>Oslogatan 40 , 16431 kista</span>
+            </div>
+            <div class="top_location">
+              <i class="icon_mail"></i>
+              <p>email:</p>
+              <span>info@sinfrenos.se</span>
             </div>
           </div>
           <div class="header-right">
@@ -237,6 +244,9 @@
               <li><a href="quote.html" title="Quote">Offertförfrågan</a></li>
               <li><a href="shop.html" title="Shop">Vår Butik</a></li>
               <li><a href="contact.html" title="Contact">Kontakta Oss</a></li>
+              <li>
+                <a href="economy.html" title="Economy">Ekonomi & Redovisning</a>
+              </li>
             </ul>
           </div>
           <div class="menu_right">
@@ -495,6 +505,7 @@
               class="form-order"
               data-netlify="true"
               name="form-index-sv"
+              action="/action.html"
             >
               <div class="estimate_form_inner">
                 <h4>Begär offert</h4>
@@ -504,7 +515,7 @@
                     name="user-name"
                     id="user-name"
                     placeholder="Namn"
-                    required=""
+                    required
                     class="form-control"
                     type="text"
                   />
